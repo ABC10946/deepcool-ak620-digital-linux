@@ -4,7 +4,7 @@ After=suspend.target
 
 [Service]
 Type=simple
-ExecStart=/bin/systemctl --no-block restart deepcool-ak620-digital.service
+ExecStart=/bin/systemctl --user --no-block restart deepcool-ak620-digital.service
 
 [Install]
 WantedBy=suspend.target
