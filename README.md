@@ -11,7 +11,8 @@ This script requires the following dependencies:
 
 You can install by running the provided `setup.sh` script:
 ```bash
-./setup.sh
+$ sudo git clone https://github.com/ABC10946/deepcool-ak620-digital-linux /usr/local/
+$ ./setup.sh
 ```
 
 ## Troubleshooting
